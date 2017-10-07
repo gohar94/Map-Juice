@@ -1,0 +1,22 @@
+<configuration>
+    <property>
+        <name>yarn.nodemanager.aux-services</name>
+        <value>mapreduce_shuffle</value>
+    </property>
+	<property>
+		<name>yarn.nodemanager.aux-services.mapreduce.shuffle.class</name>
+		<value>org.apache.hadoop.mapred.ShuffleHandler</value>
+	</property>
+	<property>
+		<name>yarn.resourcemanager.resource-tracker.address</name>
+		<value>fa16-cs425-g10-01.cs.illinois.edu:8025</value>
+	</property>
+	<property>
+		<name>yarn.resourcemanager.scheduler.address</name>
+		<value>fa16-cs425-g10-01.cs.illinois.edu:8030</value>
+	</property>
+	<property>
+		<name>yarn.resourcemanager.address</name>
+		<value>fa16-cs425-g10-01.cs.illinois.edu:8050</value>
+	</property>
+</configuration>

@@ -1,0 +1,4 @@
+Followed this one mostly:
+http://javadev.org/docs/hadoop/centos/6/installation/multi-node-installation-on-centos-6-non-sucure-mode/
+
+https://www.tutorialspoint.com/hadoop/hadoop_multi_node_cluster.htm
